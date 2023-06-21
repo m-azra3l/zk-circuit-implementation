@@ -1,13 +1,14 @@
 [
   {
-    "name": "multiplier",
+    "name": "zkcircuit",
+    "version": 2,
     "protocol": "groth16",
-    "circuit": "multiplier/circuit.circom",
-    "input": "multiplier/input.json",
-    "wasm": "multiplier/out/circuit.wasm",
-    "zkey": "multiplier/out/multiplier.zkey",
-    "vkey": "multiplier/out/multiplier.vkey",
-    "r1cs": "multiplier/out/multiplier.r1cs",
+    "circuit": "zkcircuit/circuit.circom",
+    "input": "zkcircuit/input.json",
+    "wasm": "zkcircuit/out/circuit.wasm",
+    "zkey": "zkcircuit/out/zkcircuit.zkey",
+    "vkey": "zkcircuit/out/zkcircuit.vkey",
+    "r1cs": "zkcircuit/out/zkcircuit.r1cs",
     "beacon": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
   }
 ]
